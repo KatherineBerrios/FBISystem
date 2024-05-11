@@ -101,7 +101,7 @@ app.get("/SignIn", (req, res) => {
   }
 });
 
-// Ruta GET /dashboard
+// Ruta GET /restricted
 app.get("/restricted", (req, res) => {
   // Almacenar en una constante el parámetro “token” extraído con query strings;
   const { token } = req.query;
